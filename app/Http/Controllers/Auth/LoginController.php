@@ -40,18 +40,21 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
-    // public function login(Request $request)
-    // {
-    //     $request->validate([
-    //         'email' => 'required|email',
-    //         'password' => 'required',
-    //     ]);
+    public function login(Request $request)
+    {
+        $credentials = $request->validate([
+            'email' => 'required|email',
+            'password' => 'required',
+        ]);
 
-    //     if(Auth::attempt(['email' => $request->email, 'password' => $request->password])){
-    //         return redirect()->route(Auth::user()->role.'.home');
-    //     }else{
-    //         return redirect()->back()->with('error', 'These credentials do not match our records.');
-    //     }
+        if (Auth::attempt($credentials)) {
+            $request->session()->regenerate();
+ 
+            return redirect()->route(Auth::user()->role.'.home');
+        }
 
-    // }
+        return back()->withErrors([
+            'email' => 'The provided credentials do not match our records.',
+        ])->onlyInput('email','remember');
+    }
 }
