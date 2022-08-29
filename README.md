@@ -16,7 +16,7 @@ git clone https://github.com/tbsrohit/laravel-multi-auth.git
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [rjayswal780+git@gmail.com](mailto:rjayswal780+git@gmail.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
