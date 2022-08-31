@@ -1,3 +1,67 @@
 body{
   font-family:'Poppins' !important;
 }
+
+/* #563727 #372C2E #FFFFFF #DE9E48 #7A431D */
+
+.main-sidebar{
+  background-color: #7A431D;
+}
+
+.bg-coffee-light{
+  background-color: #DE9E48;
+}
+
+.bg-coffee-primary{
+  background-color: #7A431D;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.main-sidebar .brand-link{
+  color: #fff !important;
+  border-bottom: 1px solid  #fff;
+}
+
+.user-panel {  
+  border-bottom: 1px solid #fff !important;
+}
+
+.user-panel > .info > a{
+  color: #fff !important;
+}
+
+.main-sidebar .nav-sidebar > .nav-item > .nav-link{
+  color: #fff !important;      
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.main-sidebar .nav-sidebar > .nav-item:hover{
+  background-color: #DE9E48;
+}
+
+.main-sidebar .nav-sidebar > .menu-open:hover > .nav-treeview{
+  background-color: #7A431D;
+  border-bottom: 1px solid #7A431D;
+}
+
+.main-sidebar .nav-sidebar > .menu-open > .nav-treeview > .nav-item:hover {
+  background-color: #DE9E48;
+}
+
+.main-sidebar .nav-sidebar > .nav-item > .nav-link.active {
+  background-color: #563727;
+  color: #fff;
+}
+
+.main-sidebar .nav-sidebar > .nav-item >.nav-treeview > .nav-item > .nav-link.active {
+  background-color:#DE9E48;
+  color: #fff;
+}
+
+.main-sidebar .nav-sidebar > .nav-item >.nav-treeview > .nav-item > .nav-link{
+  color: #fff;
+}

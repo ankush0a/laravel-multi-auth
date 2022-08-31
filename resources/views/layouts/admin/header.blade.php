@@ -1,5 +1,5 @@
   <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+  <nav class="main-header navbar navbar-expand navbar-dark bg-coffee-primary">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <li class="nav-item">
@@ -71,7 +71,7 @@
         </a>
         <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
           <!-- User image -->
-          <li class="user-header bg-primary">
+          <li class="user-header bg-coffee-primary">
             <img src="{{ asset('img/avatar5.png') }}" class="img-circle elevation-2" alt="User Image">
             <p>
               {{Auth::user()->name}} - {{Auth::user()->role}}
