@@ -7,7 +7,7 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
         <link rel="shortcut icon" href="{{ asset('img/AdminLTELogo.png') }}" type="image/x-icon">
         <!-- Fonts -->
-        <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.bunny.net/css2?family=Poppins" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -16,7 +16,7 @@
 
         <style>
             body {
-                font-family: 'Nunito', sans-serif;
+                font-family: 'Poppins';                
             }
         </style>
     </head>
@@ -37,8 +37,7 @@
             @endif
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <h4><a href="{{ route('admin.home') }}">admin-home</a></h4>
-                <h4><a href="{{ route('user.home') }}">user-home</a></h4>
+                <h1>Welcome to laravel multi-auth project.</h1>
             </div>
         </div>
     </body>
