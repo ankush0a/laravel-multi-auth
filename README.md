@@ -13,6 +13,11 @@ To take clone of repositry copy below code and paste it in terminal
 ```SHELL
 git clone https://github.com/tbsrohit/laravel-multi-auth.git
 ```
+Now config your .env file to connect database and excute the below command in terminal.
+
+```SHELL
+php artisan migrate:fresh --seed
+```
 
 ## Security Vulnerabilities
 
