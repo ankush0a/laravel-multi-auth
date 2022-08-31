@@ -27,7 +27,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   @include('layouts.admin.leftside')
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+  <div class="content-wrapper bg-coffee-light">
     @yield('content')
   </div>
   <!-- /.content-wrapper -->
