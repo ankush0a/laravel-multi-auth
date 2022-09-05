@@ -1,5 +1,5 @@
   <!-- Control Sidebar -->
-  <aside class="control-sidebar text-white bg-coffee-primary">
+  <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
     <div class="p-3">
       <h5>Title</h5>
