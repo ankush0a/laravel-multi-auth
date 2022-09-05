@@ -1,4 +1,4 @@
-<p align="center">###Laravel Multi Auth</p>
+<h1 align="center">Laravel Multi Auth</h1>
 
 ## About this project
 Just take clone, run database seeder and start work using multiple authentication system.
