@@ -14,11 +14,11 @@ To take clone of repositry copy below code and paste it in terminal
 git clone https://github.com/tbsrohit/laravel-multi-auth.git
 ```
 ## Setup this project
-1. Excute the "command composer install".
-2. Copy .env.example from root directory and paste on root directory.
-3. Rename the copy file to .env
-4. Now config your .env file to connect database
-5. Excute "php artisan migrate:fresh --seed" command in terminal.
+1. Execute the command "composer install".
+2. In the root directory, copy and paste env.example. 
+3. Change the name of the copy file to.env
+4. Now, modify your.env file so that it can connect to the database. 
+5. Execute the "php artisan migrate:fresh --seed" command in the terminal.
 
 ## Security Vulnerabilities
 
