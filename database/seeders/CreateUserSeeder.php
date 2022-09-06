@@ -21,12 +21,16 @@ class CreateUserSeeder extends Seeder
             'email' => 'admin@laravel.com',
             'password' => Hash::make('admin123'),
             'role' => 'admin',
+            'status' => '1',
+            'email_verified_at' => date(now()),
         ]);
+
         User::create([
             'name' => 'user',
             'email' => 'user@laravel.com',
             'password' => Hash::make('user123'),
             'role' => 'user',
+            'status' => '1',
         ]);
     }
 }
